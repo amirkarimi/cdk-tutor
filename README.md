@@ -38,6 +38,14 @@ cdk-tutor start [CHALLENGE_NAME]
 
 If you don't specify a challenge name, you'll be prompted to choose from available challenges.
 
+### Setup a Python virtual environment
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows use .venv\Scripts\activate
+pip install -r requirements.txt
+```
+
 ### Grade a completed challenge
 
 ```bash
@@ -71,3 +79,4 @@ To add new challenges:
 ## License
 
 MIT
+
