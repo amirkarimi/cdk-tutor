@@ -19,7 +19,7 @@ pipx install cdk-tutor
 With `uvx`:
 
 ```bash
-uvx install cdk-tutor
+uvx cdk-tutor
 ```
 
 ## Usage
