@@ -4,14 +4,22 @@ A CLI application that teaches AWS CDK to users through interactive challenges.
 
 ## Installation
 
-```bash
-# Using uv
-uv venv
-source .venv/bin/activate  # Linux/macOS
-# OR
-.venv\Scripts\activate  # Windows
+With `pip`:
 
-uv pip install -e .
+```bash
+pip install cdk-tutor
+```
+
+With `pipx`:
+
+```bash
+pipx install cdk-tutor
+```
+
+With `uvx`:
+
+```bash
+uvx install cdk-tutor
 ```
 
 ## Usage
