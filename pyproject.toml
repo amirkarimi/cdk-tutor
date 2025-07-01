@@ -22,6 +22,9 @@ classifiers = [
     "Topic :: Software Development :: Build Tools",
 ]
 
+[project.urls]
+Homepage = "https://github.com/amirkarimi/cdk-tutor"
+
 [project.optional-dependencies]
 dev = [
     "pytest>=7.0.0",
